@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-sizing: border-box;
+}
+.hero{
+    background-image: linear-gradient(rgba(0,0,0,0.50), rgba(0,0,0,0.75)),url(village1.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+.banner{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    margin: auto 3rem;
+    color: antiquewhite;
+    font-size: 25px;
+    cursor: pointer;
+    color: rgb(245, 239, 237);
+
+    /* font-weight:900; */
+}
+
+.logo:hover{
+    color: #fff;
+    border-bottom: 4px solid #fff;
+    border-radius: 2px;
+    transition: 0.6s 0.4s;
+}
+
+.logo span:hover{
+    border-bottom: 4px solid #14d4c1;
+    border-radius: 2px;
+    transition: 0.6s;
+}
+
+.hoverone li a:hover{
+color: white;
+border-bottom: 4px solid rgb(235, 233, 236);
+border-radius: 2px;
+transition: all 0.3s 0.2s; 
+}
+
+span{
+    color: rgb(15, 238, 171);
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 2rem;
+    position: relative;
+}
+
+nav ul li a{
+    text-decoration: none;
+    columns: #fff;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: rgb(245, 146, 97);
+}
+
+nav ul li a::after{
+    content:'';
+    height: 3px;
+    width: 0%;
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    background-color: rgb(245, 146, 97);
+    transition: 1s ease-out ;
+}
+
+nav u li a:hover::after{
+    width: 100%;
+}
+
+.content{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 100%;
+    color: rgb(236, 123, 58);
+}
+
+.content h1{
+    color:rgb(254, 253, 255) ;
+    font-size: 60px;
+    font-weight: 800;
+}
+.content p{
+    margin: 0.5rem;
+    font-size: 25px;
+}
+button{
+    width: 200px;
+    margin: 1.2rem 1.5rem;
+    padding: 0.8rem 1rem;
+    border: 2px solid rebeccapurple;
+    border-radius: 25px;
+    background-color: transparent;
+    text-transform: uppercase;
+    color: violet;
+    font-weight: bold;
+    box-shadow: inset 0 0 0#14d4c1;
+    transition: 0.6s ease-out;
+    cursor: pointer;
+}
+
+button:hover{
+    box-shadow: inset 200px 0 0 rgb(228, 100, 15);
+}
+
+#spamtwo{
+    color: orangered;
+}
+
+#spamthree{
+    color: rgb(242, 41, 41);
+}
+
+#spamfour{
+    color: yellow;
+    font-size: 30px;
+}
+
+.imagess img{
+    padding: 30px;
+    margin: 20px;
+    border: 2px solid white;
+    display: inline-flex;
+    height: 300px;
+    width: 600px;
+}
+
+.gall{
+    display: flex;
+    justify-content: center;margin: auto;
+}
+
+.slidershow{
+    width: 700px;
+    height: 400px;
+    overflow: hidden;
+}
+
+.middle{
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, 50%);
+}
+
+.navigation{
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.bar{
+    width: 50px;
+    height: 10px;
+    border: 2px solid #fff;
+    margin: 6px;
+}

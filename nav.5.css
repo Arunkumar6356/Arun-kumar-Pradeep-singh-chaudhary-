@@ -55,9 +55,38 @@ button:hover{
     background-size: cover;
     background-position: center;
 }
-.AA{
-    float: left;
+/* this is a artical code css  */
+/* class code tag */
+.content{
+    border: 3px solid #fff00f;
+    padding: 15px;
+    margin: 5px;
+    display: inline-flex;
 }
-.AAA{
-    float: right;
+/* first */
+#one{
+    text-align: center;
+    display: flex;
+}
+/* second */
+#two{
+    text-align: center;
+    display: inline-flex;
+}
+/* three */
+#three{ 
+    text-align: center;
+    display: inline-flex;
+}
+/* this is div one-one */
+#one-one{
+    display: flex;
+}
+/* this is div one-two */
+#one-two{
+    display: flex;
+}
+/* this is div one-three */
+#one-three{
+    display: flex;
 }
