@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" width><input type="text" list="search">
+        <datalist id="search">
+            <option value="apple">
+            <option value="mango">
+            <option value="grapes">
+            <option value="papaya">
+            <option value="gauva">
+        </datalist>
+    </form>
+    <h3>point 30</h3>
+    <p>label, fieldset and legend</p>
+    <h5>label</h5>
+    <!-- isme label ka matla he ki carser ko asatiz rhne deta he or ye label ke liye use kiya jata he -->
+    <form action="">
+        <div>
+            <label for="">first NAME </label>
+                <input type="text" placeholder="enter name"> 
+        </div>
+        <br>
+        <div>
+            <input type="submit">  
+        </div>
+        <br>
+    </form>
+    <!-- agre ham first name pr click kre to uske box me enter hona cahiye neme box pr focus hua h-->
+    <form action="">
+        <div>
+            <label for="name">first NAME </label>
+                <input type="text" placeholder="enter name" id="name"> 
+        </div>
+        <br>
+        <div>
+            <input type="submit">  
+        </div>
+        <br>
+    </form>
+    <br>
+    <h5>fieldset</h5>
+    <!-- field us particular ka border bnke ajata he  with br -->
+    <form action="">
+        <fieldset>
+            <label for="name">first NAME </label>
+                <input type="text" placeholder="enter name" id="name"> 
+        </fieldset>
+        <br>
+        <fieldset>
+            <input type="submit">  
+        </fieldset>
+        <br>
+    </form>
+    <!-- without br  -->
+    <form action="">
+        <fieldset>
+            <label for="name">first name </label>
+                <input type="text" placeholder="enter name" id="name"> 
+        </fieldset>
+        <br>
+        <fieldset>
+            <input type="submit">  
+        </fieldset>
+        <br>
+    </form>
+    <br>
+    <h5>legend</h5>
+    <!-- isme ek trha se ye kam krta he ki usme kya pucha gya he -->
+    <form action="">
+        <fieldset>
+            <legend>information</legend>
+            <label for="name">first name </label>
+                <input type="text" placeholder="enter name" id="name"> 
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>done</legend>
+            <input type="submit">  
+        </fieldset>
+        <br>
+    </form>
+</body>
+</html>
